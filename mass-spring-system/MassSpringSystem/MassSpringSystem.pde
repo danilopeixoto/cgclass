@@ -9,7 +9,7 @@ void setup() {
     size(800, 600);
     
     for (int i = 0; i < particleCount; i++) {
-        PVector position = new PVector(height / 2.0, i * solver.springLength);
+        PVector position = new PVector(width / 2.0, i * solver.springLength);
         PVector velocity = new PVector(0, 0);
         PVector force = new PVector(0, 0);
         
@@ -24,7 +24,7 @@ void draw() {
     stroke(0);
     strokeWeight(1.0);
     
-    if (solver.particles.size() != 0 && (mousePressed || mouseButton == RIGHT)) {
+    if (solver.particles.size() != 0 && (mousePressed && mouseButton == RIGHT)) {
         Particle particle = solver.particles.get(passiveParticle);
         
         particle.position.x = mouseX;
