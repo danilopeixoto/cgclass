@@ -24,7 +24,7 @@ void draw() {
     stroke(0);
     strokeWeight(1.0);
     
-    if (solver.particles.size() != 0 && (mousePressed && mouseButton == RIGHT)) {
+    if (solver.particles.size() != 0 && (mousePressed && mouseButton == LEFT)) {
         Particle particle = solver.particles.get(passiveParticle);
         
         particle.position.x = mouseX;
