@@ -1,3 +1,2 @@
 # Camera
-
-ImplementaÁ„o de uma cena utilizando matrizes de projeÁ„o, c‚mera e modelo no Processing.
+Implementa√ß√£o de uma cena utilizando matrizes de proje√ß√£o, c√¢mera e modelo no Processing.
