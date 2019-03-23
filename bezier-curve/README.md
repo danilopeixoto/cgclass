@@ -1,2 +1,2 @@
-﻿# Bézier Curve
+# Bézier Curve
 Implementação de curva Bézier no Processing.
